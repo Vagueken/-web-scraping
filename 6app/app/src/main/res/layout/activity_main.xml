@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:foregroundTint="#C11818"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="314dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:background="#0000"
+        android:inputType="textPersonName"
+        android:text="Mobile Number"
+        android:textAlignment="center"
+        android:textColor="#F4F4F4"
+        android:textSize="100px"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="314dp"
+        android:layout_height="61dp"
+        android:background="@drawable/border"
+
+
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="red"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="105dp"
+        android:layout_margin="50px"
+        android:src="@drawable/img"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#16EFD9"
+        android:text="Send"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your mobile number"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60px"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="168dp"
+        android:layout_height="42dp"
+        android:text="Verification"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="82px"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to create an account "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+
+
+        android:textSize="60px"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will send  you one time "
+        android:textColor="#FFFFFF"
+
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:text="Password(OTP)"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="399dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
